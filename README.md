@@ -21,6 +21,8 @@ In this project, I architected a sophisticated honeynet within the Azure cloud e
 
 
 ## Architecture After Hardening / Security Controls
+<img width="1034" height="596" alt="image" src="https://github.com/user-attachments/assets/c312925c-d5d0-4a5a-9f6b-1d384fae7a33" />
+
 <img width="1058" height="580" alt="image" src="https://github.com/user-attachments/assets/2799d22e-d0b8-4fc9-a891-a2efb41ac220" />
 
 
