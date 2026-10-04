@@ -2,7 +2,9 @@
 
 
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/4VRul1X.png)
+<img width="1049" height="593" alt="image" src="https://github.com/user-attachments/assets/32fff895-0f50-4327-8b76-23a7398ff800" />
+
+
 
 ## Introduction
 
