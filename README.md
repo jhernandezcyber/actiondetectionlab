@@ -17,10 +17,12 @@ In this project, I architected a sophisticated honeynet within the Azure cloud e
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/lmu46YQ.png)
+
+
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/xOJYvRS.png)
+<img width="1058" height="580" alt="image" src="https://github.com/user-attachments/assets/2799d22e-d0b8-4fc9-a891-a2efb41ac220" />
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -37,9 +39,10 @@ For the "BEFORE" metrics, all resources were initially provisioned with unrestri
 In the "AFTER" state, a rigorous security enhancement protocol was implemented. The Network Security Groups were hardened, blocking all traffic except that originating from a pre-authorized administrative workstation. Concurrently, all other resources were secured using a dual-layer protection strategy: their inherent firewalls were meticulously configured, and Private Endpoints were employed to obfuscate them from the public internet. This approach significantly minimized the attack surface and enhanced the overall security posture of the deployment.
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/H9A6zx8.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/wrL60Gh.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/xyDbtOt.png)<br>
+<img width="1065" height="606" alt="image" src="https://github.com/user-attachments/assets/0f7f51f7-b238-49a0-bed6-0c0b766d1d1b" />
+<img width="1057" height="599" alt="image" src="https://github.com/user-attachments/assets/8dd38a60-60c5-40d0-9c94-a88ee25d0d96" />
+<img width="1058" height="600" alt="image" src="https://github.com/user-attachments/assets/a1487263-b42f-473c-a8dc-332a071b7f91" />
+
 
 ## Metrics Before Hardening / Security Controls
 
